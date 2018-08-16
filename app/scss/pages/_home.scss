@@ -24,36 +24,67 @@ body {
       letter-spacing: 2.5px;
       color: $intuition-black;
       font-family: 'Futura', sans-serif;
-      font-size: 5em;
+      font-size: 4.5em;
       margin-top: 0;
     }
 
     .sub-title {
       margin-top: -30px;
       padding: 0;
-      font-size: 2.5em;
+      font-size: 2.2em;
+    }
+    .sub-sub-title {
+      margin-top: 0px;
+      padding: 0;
+      font-size: 2.0em;
     }
 
     .three-cogs {
       position: relative;
-      color:$intuition-black;
+      color: $intuition-black;
     }
   }
+
   footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:7vh;   /* Height of the footer */
-   background:$intuition-white;
-   text-align: center;
-   h5{
-   font-size: 1em;
-}
-   .fa-heart{
-     color: red;
-   }
-   .fa-heart:hover{
-     color:purple;
-   }
- }
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12vh;
+    min-height: 7vh;
+    /* Height of the footer */
+    background: $intuition-white;
+    text-align: center;
+    padding:5px;
+
+    .footer-main{
+      font-size:1.1em;
+    }
+    h5 {
+      font-size: 0.9em;
+
+    }
+
+    .fa-heart {
+      color: red;
+      transition: all 1s ease-in-out;
+        animation: beat 1s infinite;
+    }
+    // .fa-heart:hover{
+    //   animation: beat 1s infinite;
+    // }
+    @keyframes beat{
+      0%{
+        color: red;
+        transform: scale(1.0);
+      }
+      50%{
+        // color:orange;
+        transform: scale(1.1);
+      }
+      100%{
+        color:red;
+        transform: scale(1.0);
+      }
+    }
+  }
 }
