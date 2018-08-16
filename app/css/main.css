@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Futura';
+  src: url("../../fonts/futura-demi-bold.otf"); }
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Muli', sans-serif; }
+  body .white-outline {
+    color: white;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #263238; }
+  body .jumbotron {
+    background: #FFFFFF;
+    height: 70vh; }
+    body .jumbotron img {
+      margin-bottom: 0;
+      padding: 0;
+      height: 20vh; }
+    body .jumbotron .main-title {
+      letter-spacing: 2.5px;
+      color: #263238;
+      font-family: 'Futura', sans-serif;
+      font-size: 5em;
+      margin-top: 0; }
+    body .jumbotron .sub-title {
+      margin-top: -30px;
+      padding: 0;
+      font-size: 2.5em; }
+    body .jumbotron .three-cogs {
+      position: relative;
+      color: #263238; }
+  body footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
+    /* Height of the footer */
+    background: #FFFFFF;
+    text-align: center; }
+    body footer h5 {
+      font-size: 1em; }
+    body footer .fa-heart {
+      color: red; }
+    body footer .fa-heart:hover {
+      color: purple; }

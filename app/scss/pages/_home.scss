@@ -1,0 +1,59 @@
+body {
+  background-color: $intuition-white;
+  font-family: 'Muli', sans-serif;
+
+  .white-outline {
+    color: white;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: $intuition-black;
+  }
+
+  .jumbotron {
+    background: $intuition-white;
+    height: 70vh;
+
+    img {
+      margin-bottom: 0;
+      padding: 0;
+      height: 20vh;
+    }
+
+    .main-title {
+      letter-spacing: 2.5px;
+      color: $intuition-black;
+      font-family: 'Futura', sans-serif;
+      font-size: 5em;
+      margin-top: 0;
+    }
+
+    .sub-title {
+      margin-top: -30px;
+      padding: 0;
+      font-size: 2.5em;
+    }
+
+    .three-cogs {
+      position: relative;
+      color:$intuition-black;
+    }
+  }
+  footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:7vh;   /* Height of the footer */
+   background:$intuition-white;
+   text-align: center;
+   h5{
+   font-size: 1em;
+}
+   .fa-heart{
+     color: red;
+   }
+   .fa-heart:hover{
+     color:purple;
+   }
+ }
+}

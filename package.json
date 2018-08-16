@@ -1,0 +1,19 @@
+{
+  "name": "intuition-2018",
+  "version": "1.0.0",
+  "description": "Official website for iNTUition 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kunal Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "loaders.css": "^0.1.2"
+  }
+}
