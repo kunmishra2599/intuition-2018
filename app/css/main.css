@@ -10,10 +10,23 @@ body {
     -webkit-text-fill-color: white;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #263238; }
+    -webkit-text-stroke-color: #263238;
+    transition: background-color 0.15s ease-in-out; }
+  body .white-outline:hover {
+    color: white;
+    background-color: #263238;
+    cursor: pointer; }
   body .jumbotron {
     background: #FFFFFF;
     height: 70vh; }
+    body .jumbotron a {
+      color: white;
+      -webkit-text-fill-color: white;
+      /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: #263238; }
+    body .jumbotron a:hover {
+      text-decoration: none; }
     body .jumbotron img {
       margin-bottom: 0;
       padding: 0;
@@ -29,7 +42,6 @@ body {
       padding: 0;
       font-size: 2.0em; }
     body .jumbotron .sub-sub-title {
-      margin-top: 0px;
       padding: 0;
       font-size: 1.8em; }
     body .jumbotron .three-cogs {
@@ -54,6 +66,8 @@ body {
       text-decoration-color: #82CCE0; }
     body footer .footer-main {
       font-size: 1.1em; }
+    body footer .blue-outline {
+      color: #82CCE0; }
     body footer h5 {
       font-size: 0.9em; }
     body footer .fa-heart {
@@ -66,6 +80,7 @@ body {
     color: red;
     transform: scale(1); }
   50% {
+    color: maroon;
     transform: scale(1.15); }
   100% {
     color: red;
