@@ -5,7 +5,6 @@ body {
   .white-outline {
     color: white;
     -webkit-text-fill-color: white;
-    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: $intuition-black;
     transition: background-color 0.15s ease-in-out;
@@ -20,6 +19,7 @@ body {
   .jumbotron {
     background: $intuition-white;
     height: 100vh;
+    min-height: 100vh;
     @keyframes scroll {
       0% {
         transform: translateY(0);
@@ -32,6 +32,12 @@ body {
 
     svg #wheel {
       animation: scroll ease 2s infinite;
+    }
+
+    .svg {
+      min-height: 10%;
+      margin-top: 10vmin;
+      font-size: 2.5vmin;
     }
 
     a {
@@ -57,7 +63,7 @@ body {
       margin-top: 10px;
       font-family: 'Muli', sans-serif;
       font-weight: light;
-      font-size: 1.5em;
+      font-size: 4vmin;
     }
 
     .btn-outline-primary:hover {
@@ -85,19 +91,21 @@ body {
       color: $intuition-black;
       font-family: 'Futura', sans-serif;
       font-size: 4.5em;
+      font-size: 12vmin;
       margin-top: 0;
-      margin-bottom: -10px;
+      margin-bottom: -4vmin;
     }
 
     .sub-title {
-      margin-top: 0;
+      margin-top: 0vh;
       padding: 0;
       font-size: 2.0em;
+      font-size: 5.5vmin;
     }
 
     .sub-sub-title {
       padding: 0;
-      font-size: 1.5em;
+      font-size: 4vmin;
     }
 
     .three-cogs {
@@ -114,22 +122,27 @@ body {
     padding-top: 50px;
     margin-left: 0;
 
+    h1 {
+      font-size: 6vmin;
+    }
+
     .row {
       margin-top: 30px;
     }
 
-    .col-4 {
+    .col-md-4 {
       padding: 30px 30px 5px;
       margin-top: 0;
 
       h5 {
         text-align: left;
         font-weight: bold;
-        font-size: 1.4em;
+        font-size: 3.8vmin;
       }
 
       p {
         text-align: left;
+        font-size: 3vmin;
       }
     }
   }
@@ -139,7 +152,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 12vh;
-    min-height: 7vh;
+    min-height: 10vh;
     /* Height of the footer */
     background: $intuition-black;
     text-align: center;
