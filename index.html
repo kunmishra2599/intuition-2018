@@ -17,23 +17,53 @@
 </head>
 
 <body>
+  <nav class="nav navbar navbar-expand-lg navbar-light fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarToggle">
+      <!-- <a class="navbar-brand" href="#"><img src="app/images/lightbulb.svg" /></a> -->
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gettinghere">Getting Here</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
   <div class="jumbotron text-center vertical-center col-xs-10">
     <img src="app/images/lightbulb.svg" />
     <h1 class="main-title">#I<span class="white-outline"><a href="http://www.ntu.edu.sg" target="_blank">NTU</a></span>ITION<span class="white-outline">5.0</span></h1><br>
     <h5 class="sub-title">Transforming ideas to code.</h5>
     <h5 class="sub-sub-title">13-14<sup>th</sup> October 2018 @ NTU, Singapore.</h5>
     <a class="btn btn-outline-primary btn-lg" href="https://intuition2018.typeform.com/to/Q3JdMb" target="_blank">Register Now</a>
-    <div class="col-xs-10 svg"><h5>
+    <div class="col-xs-10 svg">
+      <h5>
       <svg width="6vmin" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     	<path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:black;stroke-width:20px;"/>
     	<path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:black;stroke-width:20px;"/>
       </svg>
     </h5>
-    <p>Scroll down for more information.</p>
-  </div>
+      <p>Scroll down for more information.</p>
+    </div>
   </div>
   <!-- <div class="container"> -->
-  <div class="col-12 faq">
+  <div class="col-12 faq" id="faq">
     <h1>Frequently Asked Questions</h1>
     <div class="row">
       <div class="col-md-4 col-xs-10 col-lg-4">
@@ -79,6 +109,120 @@
     </div>
 
   </div>
+  <div class="col-12 gettinghere" id="gettinghere">
+    <h1>Getting Here</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-6 col-xs-10">
+            <h4>Directions:</h4>
+            <p>Take the East-West line to Boon Lay MRT Station. Take one of the two buses:
+            <ul>
+              <li>179/179A from Blk 662A to Lee Wee Nam Bus Stop in NTU (13 stops)</li>
+              <li>199 from Boon Lay Interchange to Lee Wee Nam Bus Stop in NTU(13 stops)</li>
+            </ul>
+            Get off at Lee Wee Nam Library's stop, and turn left and start walking up the pathway to the grey coloured building to the left: that's the Arc!</p>
+          </div>
+          <div class="col-md-6 col-xs-10">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=The%20Arc%20ntu&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">website erstellen</a></div><style>.mapouter{text-align:right;height:300px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 schedule" id="schedule">
+    <h1> Event Schedule</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="table-responsive">
+              <table class="table">
+                <tr>
+                  <th colspan="3">Day 1 (13<sup>th</sup> October)</th>
+                </tr>
+                <tr>
+                  <td>1200</td>
+                  <td>1230</td>
+                  <td>Registration</td>
+                </tr>
+                <tr>
+                  <td>1230</td>
+                  <td>1300</td>
+                  <td>Opening Presentation</td>
+                </tr>
+                <tr>
+                  <td colspan="2">1300</td>
+                  <td>Hacking Begins!</td>
+                </tr>
+                <tr>
+                  <td>1800</td>
+                  <td>1900</td>
+                  <td>Dinner</td>
+                </tr>
+                <tr>
+                  <td>2300</td>
+                  <td>2400</td>
+                  <td>Supper</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="table-responsive">
+              <table class="table">
+                <tr>
+                  <th colspan="3">Day 2 (14 <sup>th</sup> October)</th>
+                </tr>
+                <tr>
+                  <td>0600</td>
+                  <td>0700</td>
+                  <td>Breakfast</td>
+                </tr>
+                <tr>
+                  <td colspan="2">1300</td>
+                  <td>Hacking Ends!</td>
+                </tr>
+                <tr>
+                  <td>1300</td>
+                  <td>1430</td>
+                  <td>Lunch + Initial Judging (DevPost)</td>
+                </tr>
+                <tr>
+                  <td>1430</td>
+                  <td>1600</td>
+                  <td>Presentations by Selected Teams</td>
+                </tr>
+                <tr>
+                  <td>1600</td>
+                  <td>1630</td>
+                  <td>Prize Presentation</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <p>Note, this may be subject to revisions! Participants will be notified of any changes.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 sponsors" id="sponsors">
+    <h1>Sponsors</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h3>Platinum Sponsor</h3>
+        <img src="app/images/SeaGroup.png"/>
+      </div>
+      <div class="col-md-10">
+        <h3>Gold Sponsor</h3>
+        <img src="app/images/Blackrock.png"/>
+      </div>
+      <div class="col-md-10">
+        <h3>Title Sponsor</h3>
+        <img src="app/images/PayPal.png"/>
+      </div>
+    </div>
+  </div>
   <!-- </div> -->
   <footer class="vertical-center">
     <h5 class="footer-main">This hackathon is a joint collaboration by <a href="http://www.ntuoss.com" target="_blank">NTU Open Source Society</a> and <a href="http://www.ieeentu.com/" target="_blank">IEEE NTU</a>.</h5>
@@ -88,6 +232,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="app/js/main.js"></script>
+
 </body>
 
 </html>

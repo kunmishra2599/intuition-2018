@@ -2,9 +2,41 @@
   font-family: 'Futura';
   src: url("../fonts/futura-demi-bold.otf"); }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: #FFFFFF;
   font-family: 'Muli', sans-serif; }
+  body .col-12 {
+    text-align: center;
+    background-color: #263238; }
+  body .navbar {
+    background-color: none;
+    transition: 1s ease-in-out; }
+    body .navbar .navbar-brand img {
+      height: 6vmin; }
+  body .navbar-light .navbar-nav .nav-link {
+    color: #263238;
+    margin: 5px; }
+  body .navbar-light .navbar-nav .nav-link:hover {
+    color: #82CCE0; }
+  @media only screen and (max-width: 768px) {
+    body .navbar {
+      border-color: white;
+      background-color: white;
+      border-bottom: 1px solid black; }
+      body .navbar img {
+        display: none; }
+      body .navbar .nav-item {
+        padding: 3px; }
+    body .jumbotron {
+      margin-top: 20%; } }
+  body .on-scroll {
+    background-color: #FFFFFF;
+    color: #263238;
+    border-bottom: 0.5px solid #263238;
+    transition: 0.1s ease-in; }
   body .white-outline {
     color: white;
     -webkit-text-fill-color: white;
@@ -73,7 +105,7 @@ body {
       margin-top: 0;
       margin-bottom: -4vmin; }
     body .jumbotron .sub-title {
-      margin-top: 0vh;
+      margin-top: 0;
       padding: 0;
       font-size: 2.0em;
       font-size: 5.5vmin; }
@@ -88,7 +120,7 @@ body {
     background: #263238;
     color: white;
     min-height: 100vh;
-    padding-top: 50px;
+    padding-top: 80px;
     margin-left: 0; }
     body .faq h1 {
       font-size: 6vmin; }
@@ -104,21 +136,51 @@ body {
       body .faq .col-md-4 p {
         text-align: left;
         font-size: 3vmin; }
+  body .gettinghere {
+    background-color: #263238;
+    color: white;
+    min-height: 80vh;
+    padding-top: 80px; }
+    body .gettinghere .row {
+      margin-top: 2%;
+      text-align: left; }
+  body .schedule {
+    padding-top: 80px;
+    min-height: 100vh;
+    background-color: #263238;
+    color: white; }
+    body .schedule .row {
+      text-align: center;
+      margin-top: 2%; }
+      body .schedule .row .col-md-6 {
+        text-align: left; }
+  body .sponsors {
+    color: #263238;
+    margin-bottom: -7px;
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: #FFFFFF; }
+    body .sponsors img {
+      height: 200px;
+      margin-top: 2%; }
+    body .sponsors .col-md-10 {
+      margin-top: 2%; }
   body footer {
     bottom: 0;
     width: 100%;
     height: 12vh;
     min-height: 10vh;
+    margin-top: 0;
     /* Height of the footer */
-    background: #263238;
+    background: #FFFFFF;
     text-align: center;
     padding: 15px;
-    color: #FFFFFF;
-    border-top: 0.5px solid #FFFFFF; }
+    color: #263238;
+    border-top: 0.5px solid #263238; }
     body footer a {
-      color: #FFFFFF; }
+      color: #263238; }
     body footer a:hover {
-      color: white;
+      color: #263238;
       text-decoration: underline;
       text-decoration-style: dashed;
       text-decoration-color: #82CCE0; }
