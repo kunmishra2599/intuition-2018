@@ -146,7 +146,7 @@ body {
         text-align: left; }
   body .sponsors {
     color: #263238;
-    margin-bottom: -7px;
+    padding-bottom: 5%;
     min-height: 100vh;
     padding-top: 80px;
     background-color: #FFFFFF;
@@ -164,24 +164,25 @@ body {
     height: 12vh;
     min-height: 10vh;
     /* Height of the footer */
-    background: #FFFFFF;
+    background: #263238;
     text-align: center;
     padding: 15px;
     color: #263238;
     border-top: 0.5px solid #263238; }
     body footer a {
-      color: #263238; }
+      color: #FFFFFF; }
     body footer a:hover {
-      color: #263238;
+      color: #FFFFFF;
       text-decoration: underline;
       text-decoration-style: dashed;
       text-decoration-color: #82CCE0; }
     body footer .footer-main {
-      font-size: 1.1em; }
+      font-size: 0.9em; }
     body footer .blue-outline {
       color: #82CCE0; }
     body footer h5 {
-      font-size: 0.9em; }
+      font-size: 0.8em;
+      color: #FFFFFF; }
     body footer .fa-heart {
       color: red;
       transition: all 1s ease-in-out;
