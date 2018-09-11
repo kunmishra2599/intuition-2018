@@ -389,24 +389,26 @@ body {
     }
 
     .jumbotron {
-      padding-top: 30%;
+      padding-top: 35%;
+      width:100%;
+      overflow-x: hidden;
       .main-title{
-        font-size:2em;
+        font-size:2.2em;
         margin-top: 0%;
         img{
           margin-top:-6px;
         }
       }
       .sub-title{
-        font-size:1.7em;
+        font-size:1.5em;
       }
       .sub-sub-title{
-        font-size:1.8em;
+        font-size:1.3em;
       }
     }
     .faq{
       h1{
-        font-size: 3em;
+        font-size: 2em;
       }
       .col-md-10 {
         padding: 30px 30px 5px;
@@ -420,25 +422,30 @@ body {
 
         p {
           text-align: left;
-          font-size: 1em;
+          font-size: 1.2em;
         }
       }
     }
     .gettinghere{
       h1{
-        font-size: 3em;
+        font-size: 2em;
       }
       h4{
-        font-size:2em;
+        font-size:1.5em;
       }
       p, ul{
-        font-size:1.3em;
+        font-size:1.2em;
       }
 
     }
     .sponsors{
       .col-md-10{
         padding:20px;
+      }
+    }
+    .schedule{
+      h1{
+        font-size:2em
       }
     }
     .gmap_canvas{

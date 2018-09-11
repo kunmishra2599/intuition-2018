@@ -255,18 +255,20 @@ body {
       body .navbar .nav-item {
         padding: 3px; }
     body .jumbotron {
-      padding-top: 30%; }
+      padding-top: 35%;
+      width: 100%;
+      overflow-x: hidden; }
       body .jumbotron .main-title {
-        font-size: 2em;
+        font-size: 2.2em;
         margin-top: 0%; }
         body .jumbotron .main-title img {
           margin-top: -6px; }
       body .jumbotron .sub-title {
-        font-size: 1.7em; }
+        font-size: 1.5em; }
       body .jumbotron .sub-sub-title {
-        font-size: 1.8em; }
+        font-size: 1.3em; }
     body .faq h1 {
-      font-size: 3em; }
+      font-size: 2em; }
     body .faq .col-md-10 {
       padding: 30px 30px 5px;
       margin-top: 0; }
@@ -276,14 +278,16 @@ body {
         font-size: 1.5em; }
       body .faq .col-md-10 p {
         text-align: left;
-        font-size: 1em; }
+        font-size: 1.2em; }
     body .gettinghere h1 {
-      font-size: 3em; }
-    body .gettinghere h4 {
       font-size: 2em; }
+    body .gettinghere h4 {
+      font-size: 1.5em; }
     body .gettinghere p, body .gettinghere ul {
-      font-size: 1.3em; }
+      font-size: 1.2em; }
     body .sponsors .col-md-10 {
       padding: 20px; }
+    body .schedule h1 {
+      font-size: 2em; }
     body .gmap_canvas {
       width: 100%; } }
