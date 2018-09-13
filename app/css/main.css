@@ -180,8 +180,14 @@ body {
     body .sponsors h3 {
       margin-top: 20px; }
     body .sponsors img {
-      height: 100px;
-      margin-top: 2%; }
+      margin-top: 2%;
+      max-width: 80%; }
+    body .sponsors .gold img {
+      max-height: 120px; }
+    body .sponsors .title {
+      padding: 20px; }
+      body .sponsors .title img {
+        max-height: 100px; }
     body .sponsors .col-md-10 {
       margin-bottom: 2%; }
   body footer {
@@ -216,13 +222,13 @@ body {
 
 @keyframes beat {
   0% {
-    color: red;
+    color: maroon;
     transform: scale(1); }
   50% {
-    color: maroon;
-    transform: scale(1.15); }
-  100% {
     color: red;
+    transform: scale(1.18); }
+  100% {
+    color: maroon;
     transform: scale(1); } }
   @media only screen and (max-width: 768px) and (min-width: 401px) {
     body html {

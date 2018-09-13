@@ -272,8 +272,20 @@ body {
 
 
     img {
-      height: 100px;
+      // height: 150px;
       margin-top: 2%;
+      max-width: 80%;
+    }
+    .gold{
+      img{
+        max-height:120px;
+      }
+    }
+    .title{
+      padding:20px;
+      img{
+        max-height: 100px;
+      }
     }
 
     .col-md-10 {
@@ -327,17 +339,17 @@ body {
     }
     @keyframes beat {
       0% {
-        color: red;
+        color: maroon;
         transform: scale(1.0);
       }
 
       50% {
-        color: maroon;
-        transform: scale(1.15);
+        color: red;
+        transform: scale(1.18);
       }
 
       100% {
-        color: red;
+        color: maroon;
         transform: scale(1.0);
       }
     }
@@ -418,6 +430,9 @@ body {
     .sponsors{
       .col-md-10{
         padding:20px;
+        // img{
+        //   height:150px;
+        // }
       }
     }
     .gmap_canvas{
