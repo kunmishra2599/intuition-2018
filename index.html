@@ -49,14 +49,17 @@
   </nav>
   <div class="jumbotron text-center vertical-center">
     <h1 class="main-title animated fadeIn">     <img src="app/images/lightbulb.svg" />
-    I<span class="white-outline"><a href="http://www.ntu.edu.sg" target="_blank">NTU</a></span>ITION<span class="white-outline">5.0</span></h1><br>
+    I<span class="white-outline"><a href="http://www.ntu.edu.sg" target="_blank">NTU</a></span>ITION<span class="white-outline-2">5.0</span></h1><br>
     <h5 class="sub-title animated fadeIn slow delay-3s">Calling all hackers and makers.
     </h5>
     <h5 class="sub-sub-title animated fadeIn slower delay-4s">13-14<sup>th</sup> October 2018 @ NTU, Singapore.</h5>
     <a class="btn btn-outline-primary btn-lg animated fadeIn slower delay-5s" href="https://ncwyv0kb.paperform.co/" target="_blank">Register Now</a>
+    <div class="row justify-content-center">
+    <div class="col-lg-4">
     <h5 class="sub-sub-title" style="margin-top:10px;">Countdown to event:</h5>
-    <h5 id="demo sub-sub-title" class="sub-sub-title" style="margin-top:-10px; font-weight:bold;"></h5>
-
+    <h5 id="demo sub-sub-title" class="timer sub-sub-title" style="margin-top:0px;"></h5>
+  </div>
+  </div>
 
   </div>
   <script>
@@ -79,8 +82,8 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("demo sub-sub-title").innerHTML = days + "d " + hours + "h " +
-        minutes + "m " + seconds + "s ";
+      document.getElementById("demo sub-sub-title").innerHTML = "<span class='bordered'>"+days + "D</span> " + "<span class='bordered'>"+hours + "H</span> " +
+        "<span class='bordered'>"+minutes + "D</span> " + "<span class='bordered'>"+seconds + "S</span> ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
