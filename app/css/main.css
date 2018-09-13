@@ -61,32 +61,32 @@ body {
       text-decoration: none; }
     body .jumbotron .btn-outline-primary {
       color: black;
+      background-color: #82CCE0;
       -webkit-text-fill-color: black;
       /* Will override color (regardless of order) */
       -webkit-text-stroke-width: 0.5px;
       -webkit-text-stroke-color: #263238;
       border: 1px solid #82CCE0;
-      border-radius: 3px;
+      border-radius: 40px;
       margin-top: 10px;
       font-family: 'Muli', sans-serif;
       font-weight: light;
       font-size: 1.6em; }
     body .jumbotron .btn-outline-primary:hover {
-      background: #82CCE0; }
+      background: #C792EA;
+      border: 1px solid #C792EA; }
     body .jumbotron img {
       margin-bottom: 0;
       margin-top: -6vh;
       margin-right: 0;
       max-height: 1.5em;
-      transition: 3s ease-in; }
-    body .jumbotron img:hover {
-      transform: translateY(10px); }
+      transition: 1s ease-in; }
 
 @keyframes bounce {
   0% {
     transform: translateY(0px); }
   50% {
-    transform: translateY(-40px); } }
+    transform: translateY(-30px); } }
     body .jumbotron .main-title {
       letter-spacing: 2.5px;
       color: #263238;
@@ -107,8 +107,7 @@ body {
       color: #263238; }
   body .faq {
     text-align: center;
-    background-color: #263238;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23202b30' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    background: transparent;
     color: white;
     min-height: 100vh;
     padding-top: 80px;
@@ -213,16 +212,17 @@ body {
       body .navbar .nav-item {
         padding: 3px; }
     body .jumbotron {
-      padding-top: 30%; }
+      padding: 0px;
+      padding-top: 40%; }
       body .jumbotron .main-title {
-        font-size: 3.5em;
+        font-size: 3em;
         margin-top: 0%; }
         body .jumbotron .main-title img {
           margin-top: -6px; }
       body .jumbotron .sub-title {
-        font-size: 2em; }
+        font-size: 1.7em; }
       body .jumbotron .sub-sub-title {
-        font-size: 1.8em; }
+        font-size: 1.5em; }
     body .faq h1 {
       font-size: 3em; }
     body .faq .col-md-10 {
@@ -231,22 +231,22 @@ body {
       body .faq .col-md-10 h5 {
         text-align: left;
         font-weight: bold;
-        font-size: 2rem; }
+        font-size: 1.8rem; }
       body .faq .col-md-10 p {
         text-align: left;
-        font-size: 1.5em; }
+        font-size: 1.2em; }
     body .gettinghere h1 {
       font-size: 3em; }
     body .gettinghere h4 {
-      font-size: 2em; }
+      font-size: 1.8em; }
     body .gettinghere p, body .gettinghere ul {
-      font-size: 1.5em; }
+      font-size: 1.2em; }
     body .gmap_canvas {
       width: 100%; }
       body .gmap_canvas iframe {
         width: 100%; }
     body .schedule table {
-      font-size: 1.3em; } }
+      font-size: 1.2em; } }
   @media only screen and (max-width: 400px) {
     body html {
       overflow-x: hidden; }
@@ -260,7 +260,8 @@ body {
       body .navbar .nav-item {
         padding: 3px; }
     body .jumbotron {
-      padding-top: 20%;
+      padding: 0px;
+      padding-top: 30%;
       width: 100%;
       overflow-x: hidden; }
       body .jumbotron .main-title {

@@ -87,14 +87,16 @@ body {
       text-decoration: none;
     }
 
+
     .btn-outline-primary {
       color: black;
+      background-color: $intuition-blue;
       -webkit-text-fill-color: black;
       /* Will override color (regardless of order) */
       -webkit-text-stroke-width: 0.5px;
       -webkit-text-stroke-color: $intuition-black;
       border: 1px solid $intuition-blue;
-      border-radius: 3px;
+      border-radius: 40px;
       margin-top: 10px;
       font-family: 'Muli', sans-serif;
       font-weight: light;
@@ -102,7 +104,10 @@ body {
     }
 
     .btn-outline-primary:hover {
-      background: $intuition-blue;
+      background: $intuition-purple;
+      border: 1px solid $intuition-purple;
+      // border-radius: 20px;
+
     }
 
     img {
@@ -110,10 +115,10 @@ body {
       margin-top: -6vh;
       margin-right: 0;
       max-height: 1.5em;
-      transition: 3s ease-in;
+      transition: 1s ease-in;
     }
     img:hover{
-      transform: translateY(10px);
+      // transform: translateY(10px);
     }
     @keyframes bounce {
       0% {
@@ -121,7 +126,7 @@ body {
       }
 
       50% {
-        transform: translateY(-40px);
+        transform: translateY(-30px);
       }
     }
     .main-title {
@@ -153,8 +158,9 @@ body {
 
   .faq {
     text-align: center;
-    background-color: rgba(38,50,56,1);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23202b30' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    background: transparent;
+    // background-color: rgba(38,50,56,1);
+    // background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23202b30' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
     color: white;
     min-height: 100vh;
     padding-top: 80px;
@@ -317,19 +323,20 @@ body {
     }
 
     .jumbotron {
-      padding-top: 30%;
+      padding:0px;
+      padding-top: 40%;
       .main-title{
-        font-size:3.5em;
+        font-size:3em;
         margin-top: 0%;
         img{
           margin-top:-6px;
         }
       }
       .sub-title{
-        font-size:2em;
+        font-size:1.7em;
       }
       .sub-sub-title{
-        font-size:1.8em;
+        font-size:1.5em;
       }
     }
     .faq{
@@ -343,12 +350,12 @@ body {
         h5 {
           text-align: left;
           font-weight: bold;
-          font-size: 2rem;
+          font-size: 1.8rem;
         }
 
         p {
           text-align: left;
-          font-size: 1.5em;
+          font-size: 1.2em;
         }
       }
     }
@@ -357,10 +364,10 @@ body {
         font-size: 3em;
       }
       h4{
-        font-size:2em;
+        font-size:1.8em;
       }
       p, ul{
-        font-size:1.5em;
+        font-size:1.2em;
       }
 
     }
@@ -377,7 +384,7 @@ body {
     }
     .schedule{
       table{
-        font-size:1.3em;
+        font-size:1.2em;
       }
     }
 
@@ -401,7 +408,8 @@ body {
     }
 
     .jumbotron {
-      padding-top: 20%;
+      padding:0px;
+      padding-top: 30%;
       width:100%;
       overflow-x: hidden;
       .main-title{
