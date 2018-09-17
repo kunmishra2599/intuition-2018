@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="description" content="Official website for #iNTUition2018, Singapore's only 24 Hour Hackathon. Calling all Hackers!">
+  <meta name="description" content="Official website for #iNTUition2018, NTU's only 24 Hour student-run hackathon! Calling all Hackers and Makers!">
   <meta name="author" content="Kunal Mishra">
   <link rel="icon" href="app/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,18 +48,18 @@
     </div>
   </nav>
   <div class="jumbotron text-center vertical-center">
-    <h1 class="main-title animated fadeIn">     <img src="app/images/lightbulb.svg" />
-    I<span class="white-outline"><a href="http://www.ntu.edu.sg" target="_blank">NTU</a></span>ITION<span class="white-outline-2">5.0</span></h1><br>
-    <h5 class="sub-title animated fadeIn slow delay-3s">Calling all hackers and makers.
-    </h5>
+    <h1 class="main-title animated fadeIn">
+      <img src="app/images/lightbulb.svg" />
+    I<span class="white-outline"><a href="http://www.ntu.edu.sg" target="_blank">NTU</a></span>ITION<span class="white-outline">5.0</span></h1><br>
+    <h5 class="sub-title animated fadeIn slow delay-3s">Calling all hackers and makers!</h5>
     <h5 class="sub-sub-title animated fadeIn slower delay-4s">13-14<sup>th</sup> October 2018 @ NTU, Singapore.</h5>
     <a class="btn btn-outline-primary btn-lg animated fadeIn slower delay-5s" href="https://ncwyv0kb.paperform.co/" target="_blank">Register Now</a>
-    <div class="row justify-content-center">
-    <div class="col-lg-4">
-    <h5 class="sub-sub-title" style="margin-top:10px;">Countdown to event:</h5>
-    <h5 id="demo sub-sub-title" class="timer sub-sub-title" style="margin-top:0px;"></h5>
-  </div>
-  </div>
+    <div class="row justify-content-center" style="margin-top:20px;">
+      <div class="col-lg-4">
+        <h5 class="sub-sub-sub-title" style="margin-top:10px;">Countdown to event:</h5>
+        <h5 id="demo sub-sub-title" class="timer sub-sub-sub-title" style="margin-top:0px;"></h5>
+      </div>
+    </div>
 
   </div>
   <script>
@@ -82,8 +82,8 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("demo sub-sub-title").innerHTML = "<span class='bordered'>"+days + "D</span> " + "<span class='bordered'>"+hours + "H</span> " +
-        "<span class='bordered'>"+minutes + "D</span> " + "<span class='bordered'>"+seconds + "S</span> ";
+      document.getElementById("demo sub-sub-title").innerHTML = "<span class='bordered'>" + days + "D</span> " + "<span class='bordered'>" + hours + "H</span> " +
+        "<span class='bordered'>" + minutes + "D</span> " + "<span class='bordered'>" + seconds + "S</span> ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -93,151 +93,152 @@
     }, 1000);
   </script>
   <div class="container">
-  <div class="col-12 faq" id="faq">
-    <h1>Frequently Asked Questions</h1>
-    <div class="row">
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-mouse-pointer"></i>  What is iNTUiton?</h5>
-        <p>iNTUition is NTU's only student-run 24 hour hackathon, jointly organised by NTU Open Source Society and IEEE NTU Student Branch. <br>This edition is the 5th since it's conception on 2014!</p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-tv"></i>  What is a Hackathon?</h5>
-        <p>A hackathon is an event where newbies and seasoned veterans alike spend the weekend building meaningful and/or crazy projects. The term "hack" is used to describe how multiple technologies can be used together in a new & innovative way. Sleeping
-          is optional, but trying to make awesome things is not.</p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-code-branch"></i>  I'm completely new to this! What if I don't know how to code?</h5>
-        <p>No worries! Hackathons are the perfect environment to learn and apply something new in a short period of time! You will be surrounded by hundreds of passionate people who can help you build something you can be proud of by the end of the weekend.
-          <br>Graphic Designers are welcome too!</p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-building"></i>  What do I build?</h5>
-        <p>Build something new and crazy that you are passionate about; iNTUition has no theme! Note that you cannot recycle old projects or start developing your hack beforehand, however, you may use parts of projects you've built before. </p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-people-carry"></i>  Who can participate?</h5>
-        <p>Students of all levels in any educational institution in Singapore & South-East Asia can sign up for iNTUition. If you are passionate about learning new technologies, building awesome projects and meeting like-minded hackers, we want you here!</p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-users"></i>  How do teams work?</h5>
-        <p>A team can have between 2 and 4 members. You can sign up as a team or start/join one on the spot. Note that at least one team member must be present throughout the competition. Flying solo is also an option, although hackathons are more fun when
-          you work together!</p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-gavel"></i>  How does judging/pitching work?</h5>
-        <p>Hacks will be ranked on technical difficulty, creativity, polish & general impressiveness. After the 24 hour development period, a panel of judges will choose the teams through Devpost submissions to present their hacks to everyone. </p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-shopping-bag"></i>  What should I bring?</h5>
-        <p>Bring your Matriculation Card/Student ID for admission and your laptop/hardware for hacking. We’ll provide snacks and meals throughout the event. We also recommend bringing the following items- jacket, pillow, sleeping bag, toothbrush & deodorant.</p>
-      </div>
-      <div class="col-md-10 module col-xs-10 col-lg-4">
-        <h5><i class="fas fa-money-check"></i>  Does this cost money?</h5>
-        <p>Nope! Admission is free. Just register online and show up at the venue on 13<sup>th</sup> October! We'll provide food, caffeine, Wi-Fi and a place for you to hack for the entire duration of the event.</p>
+    <div class="col-12 faq" id="faq">
+      <h1>Frequently Asked Questions</h1>
+      <div class="row">
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-mouse-pointer"></i>  What is iNTUiton?</h5>
+          <p>iNTUition is NTU's only student-run 24 hour hackathon, jointly organised by NTU Open Source Society and IEEE NTU Student Branch. <br><br>This edition is the 5th since it's conception on 2014!</p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-tv"></i>  What is a Hackathon?</h5>
+          <p>A hackathon is an event where newbies and seasoned veterans alike spend the weekend building meaningful and/or crazy projects. <br><br>The term "hack" is used to describe how multiple technologies can be used together in a new & innovative way.
+            Sleeping is optional, but trying to make awesome things is not.</p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-code-branch"></i>  I'm completely new to this! What if I don't know how to code?</h5>
+          <p>No worries! Hackathons are the perfect environment to learn and apply something new in a short period of time! <br><br>You will be surrounded by hundreds of passionate people who can help you build something you can be proud of by the end of
+            the weekend.
+            <br>Graphic Designers are welcome too!</p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-building"></i>  What do I build?</h5>
+          <p>Build something new and crazy that you are passionate about; iNTUition has no theme! Note that you cannot recycle old projects or start developing your hack beforehand, however, you may use parts of projects you've built before. </p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-people-carry"></i>  Who can participate?</h5>
+          <p>Students of all levels in any educational institution in Singapore & South-East Asia can sign up for iNTUition. If you are passionate about learning new technologies, building awesome projects and meeting like-minded hackers, we want you here!</p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-users"></i>  How do teams work?</h5>
+          <p>A team can have between 2 and 4 members. You can sign up as a team or start/join one on the spot. Note that at least one team member must be present throughout the competition. Flying solo is also an option, although hackathons are more fun
+            when you work together!</p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-gavel"></i>  How does judging/pitching work?</h5>
+          <p>Hacks will be ranked on technical difficulty, creativity, polish & general impressiveness. After the 24 hour development period, a panel of judges will choose the teams through Devpost submissions to present their hacks to everyone. </p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-shopping-bag"></i>  What should I bring?</h5>
+          <p>Bring your Matriculation Card/Student ID for admission and your laptop/hardware for hacking. We’ll provide snacks and meals throughout the event. We also recommend bringing the following items- jacket, pillow, sleeping bag, toothbrush & deodorant.</p>
+        </div>
+        <div class="col-md-10 module col-xs-10 col-lg-4">
+          <h5><i class="fas fa-money-check"></i>  Does this cost money?</h5>
+          <p>Nope! Admission is free. Just register online and show up at the venue on 13<sup>th</sup> October! We'll provide food, caffeine, Wi-Fi and a place for you to hack for the entire duration of the event.</p>
+        </div>
+
       </div>
 
     </div>
-
-  </div>
-  <div class="col-12 gettinghere" id="gettinghere">
-    <h1>Getting Here</h1>
-    <div class="row justify-content-center">
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-md-12 col-lg-6 col-xs-10">
-            <h4>Directions:</h4>
-            <p>Take the East-West line to Boon Lay MRT Station. Take one of the two buses:</p>
+    <div class="col-12 gettinghere" id="gettinghere">
+      <h1>Getting Here</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-12 col-lg-6 col-xs-10">
+              <h4>Directions:</h4>
+              <p>Take the East-West line to Boon Lay MRT Station. Take one of the two buses:</p>
               <ul>
                 <li>179/179A from Blk 662A to Lee Wee Nam Bus Stop in NTU (13 stops)</li>
                 <li>199 from Boon Lay Interchange to Lee Wee Nam Bus Stop in NTU(13 stops)</li>
               </ul>
-            <p>Get off at Lee Wee Nam Library's stop, and turn left and start walking up the pathway to the grey coloured building to the left: that's the Arc!</p>
-          </div>
-          <div class="col-md-12 col-lg-6 col-xs-12">
-            <div class="mapouter">
-              <div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=The%20Arc%20ntu&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+              <p>Get off at Lee Wee Nam Library's stop, and turn left and start walking up the pathway to the grey coloured building to the left: that's the Arc!</p>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xs-12">
+              <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=The%20Arc%20ntu&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="col-12 schedule" id="schedule">
-    <h1> Event Schedule</h1>
-    <div class="row justify-content-center">
-      <div class="col-lg-10 col-md-12 col-xs-10">
-        <div class="row">
-          <div class="col-md-12 col-lg-6 col-xs-10">
-            <div class="table-responsive">
-              <table class="table">
-                <tr>
-                  <th colspan="3">Day 1 (13<sup>th</sup> October)</th>
-                </tr>
-                <tr>
-                  <td>1200</td>
-                  <td>1230</td>
-                  <td>Registration</td>
-                </tr>
-                <tr>
-                  <td>1230</td>
-                  <td>1300</td>
-                  <td>Opening Presentation</td>
-                </tr>
-                <tr>
-                  <td colspan="2">1300</td>
-                  <td>Hacking Begins!</td>
-                </tr>
-                <tr>
-                  <td>1800</td>
-                  <td>1900</td>
-                  <td>Dinner</td>
-                </tr>
-                <tr>
-                  <td>2300</td>
-                  <td>2400</td>
-                  <td>Supper</td>
-                </tr>
-              </table>
+    <div class="col-12 schedule" id="schedule">
+      <h1> Event Schedule</h1>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-12 col-xs-10">
+          <div class="row">
+            <div class="col-md-12 col-lg-6 col-xs-10">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th colspan="3">Day 1 (13<sup>th</sup> October)</th>
+                  </tr>
+                  <tr>
+                    <td>1200</td>
+                    <td>1230</td>
+                    <td>Registration</td>
+                  </tr>
+                  <tr>
+                    <td>1230</td>
+                    <td>1300</td>
+                    <td>Opening Presentation</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">1300</td>
+                    <td>Hacking Begins!</td>
+                  </tr>
+                  <tr>
+                    <td>1800</td>
+                    <td>1900</td>
+                    <td>Dinner</td>
+                  </tr>
+                  <tr>
+                    <td>2300</td>
+                    <td>2400</td>
+                    <td>Supper</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <th colspan="3">Day 2 (14 <sup>th</sup> October)</th>
+                  </tr>
+                  <tr>
+                    <td>0600</td>
+                    <td>0700</td>
+                    <td>Breakfast</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">1300</td>
+                    <td>Hacking Ends!</td>
+                  </tr>
+                  <tr>
+                    <td>1300</td>
+                    <td>1430</td>
+                    <td>Lunch + Initial Judging (DevPost)</td>
+                  </tr>
+                  <tr>
+                    <td>1430</td>
+                    <td>1600</td>
+                    <td>Presentations by Selected Teams</td>
+                  </tr>
+                  <tr>
+                    <td>1600</td>
+                    <td>1630</td>
+                    <td>Prize Presentation</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-6">
-            <div class="table-responsive">
-              <table class="table">
-                <tr>
-                  <th colspan="3">Day 2 (14 <sup>th</sup> October)</th>
-                </tr>
-                <tr>
-                  <td>0600</td>
-                  <td>0700</td>
-                  <td>Breakfast</td>
-                </tr>
-                <tr>
-                  <td colspan="2">1300</td>
-                  <td>Hacking Ends!</td>
-                </tr>
-                <tr>
-                  <td>1300</td>
-                  <td>1430</td>
-                  <td>Lunch + Initial Judging (DevPost)</td>
-                </tr>
-                <tr>
-                  <td>1430</td>
-                  <td>1600</td>
-                  <td>Presentations by Selected Teams</td>
-                </tr>
-                <tr>
-                  <td>1600</td>
-                  <td>1630</td>
-                  <td>Prize Presentation</td>
-                </tr>
-              </table>
-            </div>
-          </div>
+          <p>Note, this may be subject to revisions! Participants will be notified of any changes.</p>
         </div>
-        <p>Note, this may be subject to revisions! Participants will be notified of any changes.</p>
       </div>
     </div>
-  </div>
 
   </div>
   <div class="col-12 sponsors" id="sponsors">

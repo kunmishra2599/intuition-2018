@@ -34,13 +34,6 @@ body {
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #263238;
     transition: background-color 0.15s ease-in-out; }
-  body .white-outline-2 {
-    color: white;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #263238;
-    transition: background-color 0.15s ease-in-out;
-    animation: 3s pulse infinite; }
   body .white-outline:hover {
     color: white;
     background-color: #263238;
@@ -85,7 +78,10 @@ body {
       margin-top: 10px;
       font-family: 'Muli', sans-serif;
       font-weight: light;
-      font-size: 1.6em; }
+      font-size: 1.6em;
+      padding: 10px;
+      padding-left: 60px;
+      padding-right: 60px; }
     body .jumbotron .btn-outline-primary:hover {
       background: #C792EA;
       border: 1px solid #C792EA; }
@@ -118,6 +114,10 @@ body {
     body .jumbotron .sub-sub-title {
       padding: 10px;
       font-size: 4vmin; }
+    body .jumbotron .sub-sub-sub-title {
+      margin-top: 2%;
+      padding: 5px;
+      font-size: 1em; }
     body .jumbotron .timer {
       color: white;
       font-weight: bold;
@@ -125,7 +125,7 @@ body {
       text-align: center; }
     body .jumbotron .bordered {
       background-color: #263238;
-      padding: 15px;
+      padding: 10px;
       border-radius: 50px; }
     body .jumbotron .three-cogs {
       position: relative;
