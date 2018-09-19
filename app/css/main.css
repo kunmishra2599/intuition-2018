@@ -31,7 +31,7 @@ body {
   body .white-outline {
     color: white;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1.35px;
     -webkit-text-stroke-color: #263238;
     transition: background-color 0.15s ease-in-out; }
   body .white-outline:hover {
@@ -62,7 +62,7 @@ body {
       color: white;
       -webkit-text-fill-color: white;
       /* Will override color (regardless of order) */
-      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-width: 1.35px;
       -webkit-text-stroke-color: #263238; }
     body .jumbotron a:hover {
       text-decoration: none; }
@@ -79,9 +79,7 @@ body {
       font-family: 'Muli', sans-serif;
       font-weight: light;
       font-size: 1.6em;
-      padding: 10px;
-      padding-left: 60px;
-      padding-right: 60px; }
+      padding: 10px 60px; }
     body .jumbotron .btn-outline-primary:hover {
       background: #C792EA;
       border: 1px solid #C792EA; }
@@ -137,18 +135,27 @@ body {
     min-height: 100vh;
     padding-top: 80px;
     margin-left: 0; }
+    body .faq br {
+      font-size: 0.1em;
+      padding: 0; }
     body .faq .row {
       margin-top: 30px; }
     body .faq .col-md-10 {
       padding: 30px 30px 5px;
       margin-top: 0; }
+      body .faq .col-md-10 i {
+        border: 2px solid #FFFFFF;
+        border-radius: 100px;
+        margin-bottom: 4%;
+        color: #82CCE0; }
       body .faq .col-md-10 h5 {
-        text-align: left;
+        text-align: center;
         font-weight: bold;
         font-size: 1.5em; }
-      body .faq .col-md-10 p {
+      body .faq .col-md-10 li {
         text-align: left;
-        font-size: 1em; }
+        font-size: 1em;
+        margin-top: 20px; }
   body .gettinghere {
     background: transparent;
     color: white;
@@ -245,11 +252,10 @@ body {
       body .navbar .nav-item {
         padding: 3px; }
     body .jumbotron {
-      padding: 0px;
-      padding-top: 40%; }
+      padding: 40% 0 0; }
       body .jumbotron .main-title {
         font-size: 3em;
-        margin-top: 0%; }
+        margin-top: 0; }
         body .jumbotron .main-title img {
           margin-top: -6px; }
       body .jumbotron .sub-title {
@@ -261,8 +267,10 @@ body {
     body .faq .col-md-10 {
       padding: 30px 30px 5px;
       margin-top: 0; }
+      body .faq .col-md-10 i {
+        margin-bottom: 20px; }
       body .faq .col-md-10 h5 {
-        text-align: left;
+        text-align: center;
         font-weight: bold;
         font-size: 1.8rem; }
       body .faq .col-md-10 p {
@@ -274,7 +282,8 @@ body {
         font-size: 3em; }
       body .gettinghere h4 {
         font-size: 1.8em; }
-      body .gettinghere p, body .gettinghere ul {
+      body .gettinghere p,
+      body .gettinghere ul {
         font-size: 1.2em; }
     body .sponsors .col-md-10 {
       padding: 20px; }
@@ -299,13 +308,12 @@ body {
       body .navbar .nav-item {
         padding: 3px; }
     body .jumbotron {
-      padding: 0px;
-      padding-top: 30%;
+      padding: 30% 0 0;
       width: 100%;
       overflow-x: hidden; }
       body .jumbotron .main-title {
         font-size: 2.2em;
-        margin-top: 0%; }
+        margin-top: 0; }
         body .jumbotron .main-title img {
           margin-top: -6px; }
       body .jumbotron .sub-title {
@@ -328,7 +336,8 @@ body {
       font-size: 2em; }
     body .gettinghere h4 {
       font-size: 1.5em; }
-    body .gettinghere p, body .gettinghere ul {
+    body .gettinghere p,
+    body .gettinghere ul {
       font-size: 1.2em; }
     body .sponsors .col-md-10 {
       padding: 30px; }

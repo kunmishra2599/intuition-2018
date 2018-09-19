@@ -3,7 +3,6 @@ html {
 }
 
 body {
-
   overflow-x: hidden;
   // background-color: $intuition-white;
   background-color: rgba(38,50,56,1);
@@ -35,7 +34,6 @@ body {
     color: $intuition-blue;
   }
 
-
   .on-scroll {
     background-color: $intuition-white;
     color: $intuition-black;
@@ -46,7 +44,7 @@ body {
   .white-outline {
     color: white;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1.35px;
     -webkit-text-stroke-color: $intuition-black;
     transition: background-color 0.15s ease-in-out;
     // animation: 4s pulse infinite;
@@ -59,18 +57,17 @@ body {
   //   transition: background-color 0.15s ease-in-out;
   //   // animation: 3s pulse infinite;
   // }
-
   .white-outline:hover {
     color: white;
     background-color: $intuition-black;
     cursor: pointer;
   }
-
   @keyframes pulse {
-    0%{
+    0% {
       background-color: none;
     }
-    50%{
+
+    50% {
       background-color: $intuition-black;
     }
   }
@@ -98,14 +95,13 @@ body {
       color: white;
       -webkit-text-fill-color: white;
       /* Will override color (regardless of order) */
-      -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-width: 1.35px;
       -webkit-text-stroke-color: $intuition-black;
     }
 
     a:hover {
       text-decoration: none;
     }
-
 
     .btn-outline-primary {
       color: black;
@@ -122,16 +118,13 @@ body {
       font-size: 1.6em;
       // padding-left:50px;
       // width:25%;
-      padding:10px;
-      padding-left:60px;
-      padding-right:60px;
+      padding: 10px 60px;
     }
 
     .btn-outline-primary:hover {
       background: $intuition-purple;
       border: 1px solid $intuition-purple;
       // border-radius: 20px;
-
     }
 
     img {
@@ -141,7 +134,8 @@ body {
       max-height: 1.5em;
       transition: 1s ease-in;
     }
-    img:hover{
+
+    img:hover {
       // transform: translateY(10px);
     }
     @keyframes bounce {
@@ -153,6 +147,7 @@ body {
         transform: translateY(-30px);
       }
     }
+
     .main-title {
       letter-spacing: 2.5px;
       color: $intuition-black;
@@ -168,36 +163,40 @@ body {
       padding: 0;
       font-size: 2.2em;
     }
-    .col-lg-3{
+
+    .col-lg-3 {
       // border: 1px solid $intuition-black;
       // border-radius: 40px;
-      margin-top:2%;
+      margin-top: 2%;
       // color: white;
     }
+
     .sub-sub-title {
       padding: 10px;
       font-size: 4vmin;
     }
-    .sub-sub-sub-title{
-      margin-top:2%;
-      padding:5px;
-      font-size:1em;
+
+    .sub-sub-sub-title {
+      margin-top: 2%;
+      padding: 5px;
+      font-size: 1em;
     }
+
     .timer {
       // background-color: $intuition-black;
       color: white;
       font-weight: bold;
-      width:auto;
+      width: auto;
       text-align: center;
       // width:200px;
       // display: block;
     }
-    .bordered{
+
+    .bordered {
       // border:2px solid white;
       background-color: $intuition-black;
-      padding:10px;
+      padding: 10px;
       border-radius: 50px;
-
     }
 
     .three-cogs {
@@ -214,6 +213,10 @@ body {
     padding-top: 80px;
     margin-left: 0;
 
+    br {
+      font-size: 0.1em;
+      padding: 0;
+    }
 
     .row {
       margin-top: 30px;
@@ -223,15 +226,23 @@ body {
       padding: 30px 30px 5px;
       margin-top: 0;
 
+      i {
+        border: 2px solid $intuition-white;
+        border-radius: 100px;
+        margin-bottom: 4%;
+        color: $intuition-blue;
+      }
+
       h5 {
-        text-align: left;
+        text-align: center;
         font-weight: bold;
         font-size: 1.5em;
       }
 
-      p {
+      li {
         text-align: left;
         font-size: 1em;
+        margin-top: 20px;
       }
     }
   }
@@ -243,7 +254,6 @@ body {
     padding-top: 80px;
     font-size: 1em;
     // padding:30px;
-
     .row {
       margin-top: 2%;
       text-align: left;
@@ -255,6 +265,7 @@ body {
     min-height: 100vh;
     color: white;
     background: transparent;
+
     .row {
       text-align: center;
       margin-top: 2%;
@@ -271,29 +282,32 @@ body {
     min-height: 100vh;
     padding-top: 80px;
     background-color: $intuition-white;
-    width:100%;
+    width: 100%;
 
-    h1{
+    h1 {
       margin-bottom: 2%;
     }
-    h3{
-      margin-top:20px;;
-    }
 
+    h3 {
+      margin-top: 20px;
+    }
 
     img {
       // height: 150px;
       margin-top: 2%;
       max-width: 80%;
     }
-    .gold{
-      img{
-        max-height:120px;
+
+    .gold {
+      img {
+        max-height: 120px;
       }
     }
-    .title{
-      padding:20px;
-      img{
+
+    .title {
+      padding: 20px;
+
+      img {
         max-height: 100px;
       }
     }
@@ -364,21 +378,22 @@ body {
       }
     }
   }
-
   @media only screen and (max-width: 768px) and (min-width: 401px) {
-    html{
+    html {
       overflow-x: hidden;
     }
-    .container{
+
+    .container {
       overflow-x: hidden;
     }
+
     .navbar {
       border-color: white;
       background-color: white;
       border-bottom: 0.5px solid black;
       padding-bottom: 10px;
 
-      img{
+      img {
         display: none;
       }
 
@@ -388,32 +403,41 @@ body {
     }
 
     .jumbotron {
-      padding:0px;
-      padding-top: 40%;
-      .main-title{
-        font-size:3em;
-        margin-top: 0%;
-        img{
-          margin-top:-6px;
+      padding: 40% 0 0;
+
+      .main-title {
+        font-size: 3em;
+        margin-top: 0;
+
+        img {
+          margin-top: -6px;
         }
       }
-      .sub-title{
-        font-size:1.7em;
+
+      .sub-title {
+        font-size: 1.7em;
       }
-      .sub-sub-title{
-        font-size:1.5em;
+
+      .sub-sub-title {
+        font-size: 1.5em;
       }
     }
-    .faq{
-      h1{
+
+    .faq {
+      h1 {
         font-size: 3em;
       }
+
       .col-md-10 {
         padding: 30px 30px 5px;
         margin-top: 0;
 
+        i {
+          margin-bottom: 20px;
+        }
+
         h5 {
-          text-align: left;
+          text-align: center;
           font-weight: bold;
           font-size: 1.8rem;
         }
@@ -424,49 +448,58 @@ body {
         }
       }
     }
-    .gettinghere{
-      padding:30px;
-      h1{
+
+    .gettinghere {
+      padding: 30px;
+
+      h1 {
         font-size: 3em;
       }
-      h4{
-        font-size:1.8em;
-      }
-      p, ul{
-        font-size:1.2em;
+
+      h4 {
+        font-size: 1.8em;
       }
 
+      p,
+      ul {
+        font-size: 1.2em;
+      }
     }
-    .sponsors{
 
-      .col-md-10{
-        padding:20px;
+    .sponsors {
+      .col-md-10 {
+        padding: 20px;
         // img{
         //   height:150px;
         // }
       }
     }
-    .gmap_canvas{
-      width:100%;
-      iframe{
-        width:100%;
-      }
-    }
-    .schedule{
-      padding:30px;
-      table{
-        font-size:1.2em;
+
+    .gmap_canvas {
+      width: 100%;
+
+      iframe {
+        width: 100%;
       }
     }
 
+    .schedule {
+      padding: 30px;
+
+      table {
+        font-size: 1.2em;
+      }
+    }
   }
   @media only screen and (max-width: 400px) {
-    html{
+    html {
       overflow-x: hidden;
     }
-    .container{
+
+    .container {
       overflow-x: hidden;
     }
+
     .navbar {
       border-color: white;
       background-color: white;
@@ -479,28 +512,33 @@ body {
     }
 
     .jumbotron {
-      padding:0px;
-      padding-top: 30%;
-      width:100%;
+      padding: 30% 0 0;
+      width: 100%;
       overflow-x: hidden;
-      .main-title{
-        font-size:2.2em;
-        margin-top: 0%;
-        img{
-          margin-top:-6px;
+
+      .main-title {
+        font-size: 2.2em;
+        margin-top: 0;
+
+        img {
+          margin-top: -6px;
         }
       }
-      .sub-title{
-        font-size:1.5em;
+
+      .sub-title {
+        font-size: 1.5em;
       }
-      .sub-sub-title{
-        font-size:1.3em;
+
+      .sub-sub-title {
+        font-size: 1.3em;
       }
     }
-    .faq{
-      h1{
+
+    .faq {
+      h1 {
         font-size: 2em;
       }
+
       .col-md-10 {
         padding: 30px 30px 5px;
         margin-top: 0;
@@ -517,35 +555,40 @@ body {
         }
       }
     }
-    .gettinghere{
-      h1{
+
+    .gettinghere {
+      h1 {
         font-size: 2em;
       }
-      h4{
-        font-size:1.5em;
-      }
-      p, ul{
-        font-size:1.2em;
+
+      h4 {
+        font-size: 1.5em;
       }
 
-    }
-    .sponsors{
-      .col-md-10{
-        padding:30px;
-      }
-    }
-    .schedule{
-      h1{
-        font-size:2em
-      }
-    }
-    .gmap_canvas{
-      width:100%;
-      iframe{
-        width:100%;
+      p,
+      ul {
+        font-size: 1.2em;
       }
     }
 
+    .sponsors {
+      .col-md-10 {
+        padding: 30px;
+      }
+    }
+
+    .schedule {
+      h1 {
+        font-size: 2em;
+      }
+    }
+
+    .gmap_canvas {
+      width: 100%;
+
+      iframe {
+        width: 100%;
+      }
+    }
   }
-
 }
